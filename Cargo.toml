@@ -1,0 +1,12 @@
+[package]
+name = "uwu-py"
+version = "1.0.0"
+edition = "2021"
+[lib]
+name = "uwupy"
+crate-type = ["cdylib"]
+[dependencies]
+uwuify = "^0.2"
+[dependencies.pyo3]
+version = "0.15.1"
+features = ["extension-module"]
