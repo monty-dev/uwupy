@@ -1,0 +1,26 @@
+[build-system]
+requires = ["maturin>=0.13,<0.14"]
+build-backend = "maturin"
+
+[project]
+name = "uwupy"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Montel Edwards", email = "m@monteledwards.com" }]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README"
+license = { text = "MIT" }
+requires = ["maturin>=0.13,<0.14"]
+build-backend = "maturin"
+
+
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python",
+    "Programming Language :: Rust",
+    "Operating System :: POSIX",
+    "Operating System :: MacOS :: MacOS X",
+]
