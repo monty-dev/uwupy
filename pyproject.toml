@@ -1,6 +1,6 @@
 [build-system]
-requires = ["maturin"]
-build-backend = "maturin==1.3.0"
+requires = ["maturin>=0.13,<0.14"]
+build-backend = "maturin"
 
 [project]
 name = "uwupy"
@@ -8,10 +8,10 @@ version = "0.1.0"
 description = ""
 authors = [{ name = "Montel Edwards", email = "m@monteledwards.com" }]
 dependencies = []
-requires-python = ">3.10<3.13"
+requires-python = ">=3.10"
 readme = "README"
 license = { text = "MIT" }
-requires = ["maturin"]
+requires = ["maturin>=0.13,<0.14"]
 build-backend = "maturin"
 
 
